@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="intro"></h1>
+<h2 id="it"></h2>
+
+
+
+
+
+
+
+    <script>
+// var name="Anthony"    // 1   string
+// var age= 10    // number
+// let status= true //   boolean
+
+var OBJ={
+name: "Anthony",
+age: 16,
+grade: 12,
+hobby: "Boxing"
+}
+
+document.getElementById("intro").innerHTML = " My name is " + OBJ.name + " i am " + OBJ.age + " years old and i study " + OBJ.grade + " and i " + OBJ.hobby
+
+
+document.getElementById("it").innerHTML=typeof(OBJ)
+
+
+    var OBJ2  = {
+        name: "Minal",
+        age: 16,
+        grade: 10,
+        hobby: "Eating"
+    }
+
+    document.getElementById("it").innerHTML = " My name is " + OBJ2.name + " i am " + OBJ2.age + " years old and i study " + OBJ2.grade + " and i love " + OBJ2.hobby
+
+
+    </script>
+</body>
+</html>
